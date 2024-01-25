@@ -1,0 +1,154 @@
+/* Navbar stilovi */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav .logo {
+    font-size: 30px;
+    text-shadow: 0px 7px 20px rgb(245, 245, 245);
+    cursor: pointer;
+}
+nav .logo a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Footer stilovi */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p {
+    text-shadow: 5px 12px 20px rgb(245, 245, 245);
+}
+
+/* Ostali stilovi */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dodatni stilovi za Početnu Stranicu */
+.featured-books, .promotion {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Dodatni stilovi za Stranicu Knjige */
+.book-details {
+    margin-top: 20px;
+}
+
+.comment-section {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.comment-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comment-section button:hover {
+    background-color: #555;
+}
+
+/* Dodatni stilovi za Login i Registraciju */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Dodatni stilovi za Registraciju */
+#registerForm {
+    margin-top: 20px;
+}
+
+#registerForm label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#registerForm input[type="text"],
+#registerForm input[type="date"],
+#registerForm input[type="email"],
+#registerForm input[type="password"],
+#registerForm select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
