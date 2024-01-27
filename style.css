@@ -52,7 +52,8 @@ body {
 }
 
 .container {
-    width: 80%;
+    min-height: 70vh;
+    width: 78%;
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
@@ -101,14 +102,27 @@ textarea {
 }
 
 /* Dodatni stilovi za Login i Registraciju */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 form {
     margin-top: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
 
 form input {
     width: 100%;
@@ -119,14 +133,35 @@ form input {
 }
 
 form button {
-    width: 100%;
+    font-size: 18px;
+    width: 30%;
     padding: 10px;
     background-color: #333;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
+.transfer {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+.transfer a {
+    text-decoration: none;
+    color: white;
+}
+.loginTransfer {
+   background-color: black;
+   font-size: 14px;
+   border-radius: 5px;
+   padding: 12px 30px;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
 
 form button:hover {
     background-color: #555;
@@ -151,4 +186,24 @@ form button:hover {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
+}
+
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 10px;
+    width: 100px;
+    font-size: 15px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
 }

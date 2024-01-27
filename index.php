@@ -28,5 +28,14 @@
     </div>
 
     <?php include 'footer.php'; ?>
+
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Scroll to the top</button>
+
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
 </body>
 </html>

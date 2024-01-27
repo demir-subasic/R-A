@@ -46,7 +46,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <?php include 'navbar.php'; ?>
 
-    <div class="container">
+    <div class="container register">
+    <div class="transfer">
+        <a href="login.php"><button class="loginTransfer">Login Form</button></a>
+        <a href="register.php"><button class="loginTransfer">Register Form</button></a>
+        </div>
         <h1>Register</h1>
         <form action="" method="post">
             <label for="first_name">First Name:</label><br>
@@ -84,5 +88,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <?php include 'footer.php'; ?>
+    <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">Scroll to the top</button>
+
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        }
+    </script>
 </body>
 </html>
