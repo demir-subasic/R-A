@@ -13,17 +13,33 @@
         
         <div class="featured-books">
             <h2>Preporučene Knjige</h2>
-            <!-- Ovde dodaj kod za prikaz preporučenih knjiga -->
+            <?php
+                // PHP kod za prikaz preporučenih knjiga
+                // Ovo može biti PHP kod koji iz baze podataka dohvata informacije o knjigama i prikazuje ih
+                echo '<div class="book">Naziv knjige 1</div>';
+                echo '<div class="book">Naziv knjige 2</div>';
+                echo '<div class="book">Naziv knjige 3</div>';
+            ?>
         </div>
         
         <div class="promotion">
             <h2>Trenutne Promocije</h2>
-            <!-- Ovde dodaj kod za prikaz trenutnih promocija -->
+            <?php
+                // Ovo može biti PHP kod koji iz baze podataka dohvata informacije o knjigama i prikazuje ih
+                echo '<div class="book">Naziv knjige 1</div>';
+                echo '<div class="book">Naziv knjige 2</div>';
+                echo '<div class="book">Naziv knjige 3</div>';
+            ?>
         </div>
         
         <div class="promotion">
             <h2>Cene Na Snizenju</h2>
-            <!-- Ovde dodaj kod za prikaz cena koje su na sniženju -->
+            <?php
+                // Ovo može biti PHP kod koji iz baze podataka dohvata informacije o knjigama i prikazuje ih
+                echo '<div class="book">Naziv knjige 1</div>';
+                echo '<div class="book">Naziv knjige 2</div>';
+                echo '<div class="book">Naziv knjige 3</div>';
+            ?>
         </div>
     </div>
 
