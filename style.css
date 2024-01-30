@@ -42,14 +42,13 @@ footer {
 footer p {
     text-shadow: 5px 12px 20px rgb(245, 245, 245);
 }
-
-/* Ostali stilovi */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
 }
+
 
 .container {
     min-height: 70vh;
@@ -150,6 +149,7 @@ form button {
     cursor: pointer;
     margin-bottom: 10px;
 }
+
 .transfer {
     display: flex;
     justify-content: space-between;
